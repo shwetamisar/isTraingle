@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate Hypotenuse</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+</head>
+<body>
+  <nav class="navigation">
+      <a class="brand-name nav-buttons links" href="hypo.html"
+        >FunWithTriangle</a
+      >
+      <ul class="list-non-bullet nav-buttons">
+        <li class="list-item-inline">
+          <a class="links" href="istriangle.html">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="links" href="area.html">Area</a>
+        </li>
+        <li class="list-item-inline link-active">
+          <a class="links link-active" href="hypo.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="links" href="quiz.html">Quiz</a>
+        </li>
+        
+      </ul>
+    </nav>
+    <div class="container">
+      <h1 style="text-align:center;">Calculate Hypotenuse</h1>
+      <label style="width: 100%;
+       padding: 12px 24px;
+       margin: 8px 0;
+       box-sizing: border-box;
+       border: 2px solid #db2777;
+       border-radius: 4px;
+       text-align: center;">Length of Hypotenuse = sqrt((side1)²+(side2)²)</label>
+      <label>Enter first side (side1):</label>
+      <input type="number" class="side-input"/>
+      <label>Enter second side (side2):</label>
+      <input type="number" class="side-input"/>
+      <button id="hypotenuse-btn">Check Hypotenuse</button> 
+    </div>
+  
+  <div id="output"></div>
+
+    <script src="./js/hypo.js"></script>
+</body>
+</html>

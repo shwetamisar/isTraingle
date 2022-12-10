@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
+
+  body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px; /* body margin coming from user stylesheet*/
+    background-color: #f9a8d4;
+  }
+
+  .navigation {
+    background-color: #db2777;
+    color: white;
+   
+  }
+  .navigation .links {
+    color: white;
+  }
+  .navigation .brand-name {
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+  }
+  .navigation .nav-buttons {
+    text-align: right;
+    padding: 1rem 1rem;
+  }
+  .navigation .link-active {
+    font-weight: bold;
+  }
+  
+  .list-non-bullet {
+    list-style: none;
+  }
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  .links {
+    /*to reomove underline part in link*/
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+  }
+  .container{
+
+    width: 50%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    
+  }
+  input,label{
+    display: block;
+  }
+  input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  label{
+    font-weight: bold;
+  }
+  button{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-weight: bold;
+    background-color: #db2777;
+    border: none;
+    
+  }
+  #output {
+    margin: auto;
+    width: 50%;
+    padding: 8px;
+    text-align:center;
+    font-weight: bold;
+  }
