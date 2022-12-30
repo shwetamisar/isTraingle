@@ -8,16 +8,24 @@ areaButton.addEventListener("click",displayOutput)
 
 function calculateArea(height,base)
 {
-   let area=(height*base)/2;
-
-    return area;
+ let area=(height*base)/2;
+ return area;
 }
 
 function displayOutput()
 {
     let heightOfTriangle=parseInt(height.value);
     let baseOfTriangle=parseInt(base.value);
-    disoutput.style.display="block";
-    area=calculateArea(heightOfTriangle,baseOfTriangle);
-    disoutput.innerText="Area of triangle is "+area;
+    if(( heightOfTriangle > 0) && (baseOfTriangle > 0))
+    {
+     area=calculateArea(heightOfTriangle,baseOfTriangle);
+     disoutput.style.display="block";
+     disoutput.innerText="Area of triangle is "+area;
+    }
+    else{
+        disoutput.style.display="block";
+        disoutput.innerText="Invalid input"
+    }
+    
+    
 }
